@@ -1,0 +1,82 @@
+*{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+body{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%) !important;
+}
+
+#app{
+  height: 100vh;
+}
+
+#app h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+form#app_form {
+  background: #2763c4;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: -2px 5px 3px 1px rgba(0, 0, 0, 0.356);
+}
+
+input {
+  border: none;
+  padding: 5px 13px 5px 6px;
+  border-radius: 5px;
+}
+
+.latitude, .longitude {
+  margin: 15px;
+}
+
+#btn {
+  display: flex ;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+#btn input{
+  background-color: rgb(158, 224, 26);
+  color: rgb(34, 33, 33);
+  font-weight: 600;
+}
+
+#btn_btn{
+  margin-right: 15px;
+}
+
+article {
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+@media(max-width: 768px){
+  form#app_form {
+      padding: 1rem;
+  }
+
+  #app_form input{
+      margin-top: 10px;
+      width: 100%;
+  }
+
+  #btn{
+      flex-direction: column;
+  }
+
+  #app h1 {
+      font-size: 2em;
+  }
+
+  #long{
+      margin-top: 10px;
+  }
+}
